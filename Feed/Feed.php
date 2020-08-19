@@ -10,7 +10,7 @@ class Feed
     /**
      * Constructor
      *
-     * @param string $sort
+     * @param String $sort
      */
     public function __construct($sort = "published")
     {
@@ -21,7 +21,7 @@ class Feed
     /**
      * Loads external url, checks if valid XML
      *
-     * @param [type] $url
+     * @param String $url
      * @return void
      */
     public function getFeed($url)
@@ -51,7 +51,7 @@ class Feed
     /**
      * Returns the title property for this feed
      *
-     * @return void
+     * @return String
      */
     public function getTitle()
     {
@@ -63,7 +63,7 @@ class Feed
     /**
      * Returns the description property for this feed
      *
-     * @return void
+     * @return String
      */
     public function getDesc()
     {
@@ -75,7 +75,7 @@ class Feed
     /**
      * Returns the item property for this feed
      *
-     * @return void
+     * @return Array
      */
     public function getItems()
     {

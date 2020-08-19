@@ -10,9 +10,9 @@ class FeedRenderer
     /**
      * Constructor
      *
-     * @param [type] $title
-     * @param [type] $desc
-     * @param [type] $items
+     * @param String $title
+     * @param String $desc
+     * @param Array $items
      */
     function __construct($title, $desc, $items)
     {
@@ -24,7 +24,7 @@ class FeedRenderer
     /**
      * Take XML and present it as RSS
      *
-     * @param [type] $rss
+     * @param XML $rss
      * @return void
      */
     public function printRSS($rss)
@@ -32,7 +32,7 @@ class FeedRenderer
         header('Content-Type: text/xml; charset=utf-8');
         echo $rss;
     }
-    
+
     /**
      * Loop through our feed-items and present them as html
      *

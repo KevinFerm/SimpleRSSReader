@@ -12,7 +12,7 @@ class Request
     public $sort = "pubDate";
 
     /**
-     * Undocumented function
+     * Constructor
      */
     public function __construct()
     {
