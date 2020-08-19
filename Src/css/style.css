@@ -1,0 +1,37 @@
+body {
+    background: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+article {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 360px;
+    max-height: 200px;
+    min-width: 250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 25px 20px -7px rgba(0,0,0,0.22);
+}
+#container {
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+h4 {
+    font-size: 15px;
+	text-transform: uppercase;
+	color: #2C3E50;
+	margin-bottom: 10px;
+}
+
+a {
+    color: #30300e;
+    text-decoration: none;
+  }
+  

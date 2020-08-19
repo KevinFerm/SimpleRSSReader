@@ -46,9 +46,11 @@ class FeedRenderer
         echo '<br><br>';
 
         foreach ($this->items as $key => $item) {
+            echo "<article>";
             echo "<h4><a href='" . (isset($item["link"]) ? (string) $item["link"] : "") . "' target='_blank'>" . (isset($item["title"]) ? (string) $item["title"] : "") . "</a></h4>";
             echo "<p><i>" . (isset($item["pubDate"]) ? $item["pubDate"] : "") . "</i></p>";
             echo "<p>" . (isset($item["description"]) ? $item["description"] : "") . "</p>";
+            echo "</article>";
         }
         include('Src/views/footer.php');
     }
